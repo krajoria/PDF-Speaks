@@ -1,0 +1,13 @@
+prefix=/Users/khushirajoria/Desktop/Personal Projects/Multiple PDF/venv
+exec_prefix=/Users/khushirajoria/Desktop/Personal Projects/Multiple PDF/venv
+libdir=/Users/khushirajoria/Desktop/Personal Projects/Multiple PDF/venv/lib
+sharedlibdir=/Users/khushirajoria/Desktop/Personal Projects/Multiple PDF/venv/lib
+includedir=/Users/khushirajoria/Desktop/Personal Projects/Multiple PDF/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
