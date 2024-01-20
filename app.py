@@ -1,7 +1,6 @@
 import streamlit as st
 from PyPDF2 import PdfReader
 import random
-import fitz  # PyMuPDF
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 import os
 import time
